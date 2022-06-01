@@ -1,0 +1,63 @@
+html, body, div, span, p, strong, input, textarea, select, button, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, footer {
+  padding: 20px;
+  background-color: #dadada;
+}
+
+section {
+  padding: 20px;
+}
+
+a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #dadada;
+}
+
+h1, h2, h3, h4 {
+  margin: 0 0 20px 0;
+}
+
+header p {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-vertical-center {
+  align-items: center;
+}
+
+.flex-horizontal-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
